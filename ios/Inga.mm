@@ -1,19 +1,14 @@
 #import "Inga.h"
+#import "IngaView.h"
 
 @implementation Inga
 RCT_EXPORT_MODULE()
 
-// Example method
-// See // https://reactnative.dev/docs/native-modules-ios
-RCT_EXPORT_METHOD(multiply:(double)a
-                  b:(double)b
-                  resolve:(RCTPromiseResolveBlock)resolve
-                  reject:(RCTPromiseRejectBlock)reject)
+- (UIView *)view
 {
-    NSNumber *result = @(a * b);
-
-    resolve(result);
+    IngaView * theView;
+    theView = [[IngaView alloc] init];
+    return theView;
 }
-
 
 @end
