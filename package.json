@@ -1,6 +1,6 @@
 {
   "name": "react-native-inga",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ignore native gesture area",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
